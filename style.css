@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  background: url('bg1.gif') no-repeat center center fixed;
+  background-size: cover;
+}.form {
+  display: grid;
+  backdrop-filter: blur(10px);
+  background-color: rgba(34, 24, 113, 0.5);
+  border-radius: 20px;
+  max-width: 300px;
+  padding: 50px 30px ; 
+  width: 80%; 
+  box-shadow: 0 8px 16px rgba(34, 24, 113, 0.2); 
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  grid-gap: 20px;
+}
+ 
+
+
+.login-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.login-text p {
+  margin: 0;
+}
+
+.login-text a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+.login-text a:hover {
+  text-decoration: underline;
+}
+
+input {
+  padding: 10px; 
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input:focus{
+  outline: none;
+}
